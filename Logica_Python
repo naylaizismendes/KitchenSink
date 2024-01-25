@@ -1,0 +1,213 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/naylaizismendes/KitchenSink/blob/main/Logica_Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I6otcLDoeQnh",
+        "outputId": "17ca955d-3ff8-4ac9-e83e-74418e9c95ea"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "2== 2"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#Calcular a m programa que receba uédia de uma lista de números: Crie umma lista de números e retorne a média dos valores presentes na lista\n",
+        "\n",
+        "prova1= float(input(\"Digite a nota da prova 1: \"))\n",
+        "prova2= float(input(\"Digite a nota da prova 2: \"))\n",
+        "prova3= float(input(\"Digite a nota da prova 3: \"))\n",
+        "media_final= (prova1+prova2+prova3)/3\n",
+        "\n",
+        "print(media_final)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cOSlici-gb-l",
+        "outputId": "8263431e-6d77-4ee7-e917-2ac3c1315b14"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a nota da prova 1: 10\n",
+            "Digite a nota da prova 2: 10\n",
+            "Digite a nota da prova 3: 0\n",
+            "6.666666666666667\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Valor= int(input(\"Digite um valor: \"))\n",
+        "ele_e= valor %2\n",
+        "if valor\n",
+        "  print(\"Esse valor e par \")\n"
+      ],
+      "metadata": {
+        "id": "tUTbsMSPiAOD"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"MEU NOME E NAYLA\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tKxcc76kl7tE",
+        "outputId": "9343c8ad-0c50-4df7-81a0-dff060c4dfab"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MEU NOME E NAYLA\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=3\n",
+        "b= 5\n",
+        "multiplicação= (2*a)*(3*b)\n",
+        "print(multiplicação)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4lbWPVFumL8C",
+        "outputId": "dd0b115c-85ac-4392-e006-50b1137a98dd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "90\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " #O primeiro programa com variáveis\n",
+        "a = 2\n",
+        "b = 3\n",
+        "c= 4\n",
+        "print (a + b + c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jP3kvhbioQfI",
+        "outputId": "b0fac6be-dbee-4f9b-a491-bc93600b1e9d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Modifique o programa da listagem 2.11, de forma que ele calcule um\n",
+        "#aumento de 15% para um salário de R$ 750.\n",
+        "salario= 750\n",
+        "aumento = (0,15*750)\n",
+        "\n",
+        "calculo=aumento+salario\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "NZNhG-Njooh-",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 229
+        },
+        "outputId": "09539bab-6ecb-4494-f812-62c7db7810b0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "can only concatenate tuple (not \"int\") to tuple",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-3-1d64e94bfb7f>\u001b[0m in \u001b[0;36m<cell line: 6>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0maumento\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m15\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0;36m750\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m \u001b[0mcalculo\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0maumento\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0msalario\u001b[0m\u001b[0;34m;\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      7\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mTypeError\u001b[0m: can only concatenate tuple (not \"int\") to tuple"
+          ]
+        }
+      ]
+    }
+  ]
+}
